@@ -2,8 +2,8 @@
 // @name         test
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  自动答题-银行真假币识别调查
+// @author       ld
 // @match        https://news.qq.com/hdh5/*
 // @grant        none
 // ==/UserScript==
