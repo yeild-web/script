@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         xr-bank-money
-// @namespace    http://tampermonkey.net/
+// @namespace    https://raw.githubusercontent.com/yeild-web/script/master/autoclick/xr.js
 // @version      0.2
 // @description  自动答题-银行真假币识别调查
 // @author       Yeild
