@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         test
+// @name         xr-bank-money
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  自动答题-银行真假币识别调查
-// @author       ld
+// @author       Yeild
 // @match        https://news.qq.com/hdh5/*
 // @grant        none
 // ==/UserScript==
