@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xr-bank-money
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  自动答题-银行真假币识别调查
 // @author       Yeild
 // @match        https://news.qq.com/hdh5/*
@@ -290,7 +290,7 @@
     })
   }
 
-  function reload(url) {
+  function reload() {
       location.reload()
   }
 
@@ -346,5 +346,5 @@
     .then(() => sleep(1))
     .then(() => obsTextClick('.b_submit', '答题结束'))
     .then(() => sleep(1))
-    .then(() => reload(url))
+    .then(() => reload())
 })();
