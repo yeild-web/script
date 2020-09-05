@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         xr-bank-money
-// @namespace    https://raw.githubusercontent.com/yeild-web/script/master/autoclick/xr.js
+// @namespace    https://github.com/yeild-web/script/blob/master/autoclick/xr.js
 // @version      0.2
 // @description  自动答题-银行真假币识别调查
 // @author       Yeild
