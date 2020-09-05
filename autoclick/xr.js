@@ -291,12 +291,15 @@
   }
 
   function reload() {
+      console.log('脚本运行结束')
       location.reload()
   }
 
   var url = 'https://news.qq.com/hdh5/bank2020.htm#/'
   sleep(2)
     .then(() => obsPage(url))
+    .then(() => sleep(1))
+    .then(() => obsClick('.b_start'))
     .then(() => sleep(1))
     .then(() => obsTextSelect('option', '四川省', 23))
     .then(() => sleep(1))
