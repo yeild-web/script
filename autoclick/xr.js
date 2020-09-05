@@ -290,9 +290,22 @@
     })
   }
 
+  function jump(url) {
+    var a = document.createElement('a');
+    a.setAttribute('rel', 'noreferrer');
+    a.setAttribute('id', 'm_noreferrer');
+    a.setAttribute('href', url);
+    document.body.appendChild(a);
+    document.getElementById('m_noreferrer').click();
+    document.body.removeChild(a);
+  }
+
+
   function reload() {
       console.log('脚本运行结束')
-      location.reload()
+      jump("https://huitongjinrong.wjx.cn/jq/87919652.aspx")
+//      chrome.windows.create({"url": "https://huitongjinrong.wjx.cn/jq/87919652.aspx", "incognito": true});
+//      window.location.replace("https://huitongjinrong.wjx.cn/jq/87919652.aspx?timestamp=" + new Date().getTime())
   }
 
   var url = 'https://news.qq.com/hdh5/bank2020.htm#/'
