@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  自动答题-银行真假币识别调查
 // @author       Yeild
-// @match        https://news.qq.com/hdh5/*
+// @match        https://news.qq.com/hdh5/bank2020.htm*
 // @grant        none
 // ==/UserScript==
 
